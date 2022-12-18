@@ -1,0 +1,125 @@
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>AR Museum</title>
+</head>
+
+<body style="margin : 0px; overflow: hidden;">
+
+    <!-- BOOTSTRAP - Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- AR.JS -->
+    <a-scene embedded arjs>
+
+        <!-- QUIZ The Kiss -->
+
+        <a-marker preset="custom" type="pattern" url="https://cdn.glitch.global/45ce1b73-d128-4cf7-b0af-2c495a79f079/pattern-6.patt?v=1671182516465">
+            <a-image position="0 -2 0" rotation="270 360 360" width="3" height="3" src="https://cdn.glitch.global/45ce1b73-d128-4cf7-b0af-2c495a79f079/8.png?v=1671180857966" rotationFactor="0" gesture-handler="rotationFactor: 0">
+            </a-image>
+        </a-marker>
+
+        <!-- QUIZ The Scream -->
+
+        <a-marker preset="custom" type="pattern" url="https://cdn.glitch.global/45ce1b73-d128-4cf7-b0af-2c495a79f079/pattern-4.patt?v=1671182497996">
+            <a-image position="0 -2 0" rotation="270 360 360" width="3" height="3" src="https://cdn.glitch.global/45ce1b73-d128-4cf7-b0af-2c495a79f079/5.png?v=1671180853502" rotationFactor="0" gesture-handler="rotationFactor: 0">
+            </a-image>
+        </a-marker>
+
+        <!-- QUIZ Girl with Pearl Earring -->
+
+        <a-marker preset="custom" type="pattern" url="https://cdn.glitch.global/45ce1b73-d128-4cf7-b0af-2c495a79f079/pattern-2.patt?v=1671182481007">
+            <a-image position="0 -2 0" rotation="270 360 360" width="3" height="3" src="https://cdn.glitch.global/45ce1b73-d128-4cf7-b0af-2c495a79f079/2.png?v=1671180846853" rotationFactor="0" gesture-handler="rotationFactor: 0">
+            </a-image>
+        </a-marker>
+
+        <!-- QUIZ SHAFIQAH -->
+
+        <!-- The Burghers of Calais -->
+
+        <a-marker preset="custom" type="pattern" url="https://cdn.glitch.global/bc8ed487-bf45-414e-8d05-8f81a96c8fc6/pattern-ans%20burghers.patt?v=1671287180586">
+
+            <a-image position="0 -2 0" rotation="270 360 360" width="5" height="3" src="https://cdn.glitch.global/bc8ed487-bf45-414e-8d05-8f81a96c8fc6/quiz%20burghers.png?v=1671289241690" rotationFactor="0" gesture-handler="rotationFactor: 0">
+            </a-image>
+        </a-marker>
+
+        <!-- The Thinker -->
+
+        <a-marker preset="custom" type="pattern" url="https://cdn.glitch.global/bc8ed487-bf45-414e-8d05-8f81a96c8fc6/pattern-ans%20thinker.patt?v=1671287179980
+">
+
+            <a-image position="0 -2 0" rotation="270 360 360" width="5" height="3" src="https://cdn.glitch.global/bc8ed487-bf45-414e-8d05-8f81a96c8fc6/quiz%20thinker.png?v=1671289239403" rotationFactor="0" gesture-handler="rotationFactor: 0">
+            </a-image>
+        </a-marker>
+
+
+        <!-- Le Fleuve -->
+
+        <a-marker preset="custom" type="pattern" url="https://cdn.glitch.global/bc8ed487-bf45-414e-8d05-8f81a96c8fc6/pattern-ans%20leflueve.patt?v=1671287179365
+">
+
+            <a-image position="0 -2 0" rotation="270 360 360" width="5" height="3" src="https://cdn.glitch.global/bc8ed487-bf45-414e-8d05-8f81a96c8fc6/quiz%20le%20flueve.png?v=1671289240477" rotationFactor="0" gesture-handler="rotationFactor: 0">
+            </a-image>
+        </a-marker>
+
+
+
+        <!-- QUIZ AISHAH -->
+
+        <!-- School of Athens Painting QUIZ -->
+
+        <a-marker preset="custom" type="pattern" url="https://cdn.glitch.global/f1114e22-5871-4838-a6e3-d46842148c29/soaansmarker.patt?v=1671286851943">
+
+            <a-image position="0 -2 0" rotation="270 360 360" width="5" height="3" src="https://cdn.glitch.global/f1114e22-5871-4838-a6e3-d46842148c29/fresco.png?v=1671188476055" rotationFactor="0" gesture-handler="rotationFactor: 0">
+            </a-image>
+        </a-marker>
+
+        <!-- Last Supper Painting QUIZ -->
+
+        <a-marker preset="custom" type="pattern" url="https://cdn.glitch.global/f1114e22-5871-4838-a6e3-d46842148c29/lastansmarker.patt?v=1671287131258">
+            <a-image position="0 -2 0" rotation="270 360 360" width="3" height="3" src="https://cdn.glitch.global/f1114e22-5871-4838-a6e3-d46842148c29/2.png?v=1671188202324" rotationFactor="0" gesture-handler="rotationFactor: 0">
+            </a-image>
+        </a-marker>
+
+
+        <!-- Creation of Adam Painting -->
+
+        <a-marker preset="custom" type="pattern" url="https://cdn.glitch.global/f1114e22-5871-4838-a6e3-d46842148c29/adamansmarker.patt?v=1671287205755">
+            <a-image position="0 -2 0" rotation="270 360 360" width="3" height="3" src="https://cdn.glitch.global/f1114e22-5871-4838-a6e3-d46842148c29/renaissance.png?v=1671188421151" rotationFactor="0" gesture-handler="rotationFactor: 0">
+            </a-image>
+        </a-marker>
+
+        <!-- QUIZ JIA YI -->
+
+        <!-- QUIZ - Discobolus -->
+
+        <a-marker preset="custom" type="pattern" url="https://cdn.glitch.global/72236586-080b-40c4-b2cf-b0729c5e4878/Discobolus-quiz.patt?v=1671279456200">
+            <a-image position="0 -2 0" rotation="270 360 360" width="3" height="3" src="https://cdn.glitch.global/72236586-080b-40c4-b2cf-b0729c5e4878/Discobolus-answer.png?v=1671279819759" rotationFactor="0" gesture-handler="rotationFactor: 0">
+            </a-image>
+        </a-marker>
+
+        <!-- QUIZ - LAKOON AND HIS SONS -->
+
+        <a-marker preset="custom" type="pattern" url="https://cdn.glitch.global/72236586-080b-40c4-b2cf-b0729c5e4878/Lakoon-quiz.patt?v=1671284749893">
+            <a-image position="0 -2 0" rotation="270 360 360" width="3" height="3" src="https://cdn.glitch.global/72236586-080b-40c4-b2cf-b0729c5e4878/Lakoon-answer.png?v=1671284761209" rotationFactor="0" gesture-handler="rotationFactor: 0">
+            </a-image>
+        </a-marker>
+
+        <!-- QUIZ - Mercury Riding Pegasus -->
+
+        <a-marker preset="custom" type="pattern" url="https://cdn.glitch.global/72236586-080b-40c4-b2cf-b0729c5e4878/Mercury-quiz.patt?v=1671284750626">
+            <a-image position="0 -2 0" rotation="270 360 360" width="3" height="3" src="https://cdn.glitch.global/72236586-080b-40c4-b2cf-b0729c5e4878/Mercury-answer.png?v=1671284756618" rotationFactor="0" gesture-handler="rotationFactor: 0">
+            </a-image>
+        </a-marker>
+
+    </a-scene>
+
+</body>
+
+</html>

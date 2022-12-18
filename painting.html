@@ -1,0 +1,78 @@
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.0.0/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>AR Museum</title>
+</head>
+
+<body style="margin : 0px; overflow: hidden;">
+
+    <!-- BOOTSTRAP - Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- AR.JS -->
+    <a-scene embedded arjs>
+
+        <!-- ARTWORKS ASMA -->
+
+        <!-- The Kiss -->
+
+        <a-marker preset="custom" type="pattern" url="https://cdn.glitch.global/45ce1b73-d128-4cf7-b0af-2c495a79f079/pattern-5.patt?v=1671182506843">
+
+            <a-image position="0 -2 0" rotation="270 360 360" width="3" height="4" src="https://cdn.glitch.global/45ce1b73-d128-4cf7-b0af-2c495a79f079/Picture3.jpg?v=1671074610795" rotationFactor="0" gesture-handler="rotationFactor: 0">
+            </a-image>
+        </a-marker>
+
+        <!-- The Scream -->
+
+        <a-marker preset="custom" type="pattern" url="https://cdn.glitch.global/45ce1b73-d128-4cf7-b0af-2c495a79f079/pattern-3.patt?v=1671182489208">
+
+            <a-image position="0 -2 0" rotation="270 360 360" width="3" height="3" src="https://cdn.glitch.global/45ce1b73-d128-4cf7-b0af-2c495a79f079/Picture2.jpg?v=1671074604056" rotationFactor="0" gesture-handler="rotationFactor: 0">
+            </a-image>
+        </a-marker>
+
+        <!-- Girl with a Pearl Earring -->
+
+        <a-marker preset="custom" type="pattern" url="https://cdn.glitch.global/45ce1b73-d128-4cf7-b0af-2c495a79f079/pattern-1.patt?v=1671181873659">
+
+            <a-image position="0 -2 0" rotation="270 360 360" width="3" height="2" src="https://cdn.glitch.global/45ce1b73-d128-4cf7-b0af-2c495a79f079/Picture1.jpg?v=1671074575165" rotationFactor="0" gesture-handler="rotationFactor: 0">
+            </a-image>
+        </a-marker>
+
+        <!-- ARTWORKS AISHAH -->
+
+        <!-- School of Athens Painting-->
+        <a-marker preset="custom" type="pattern" url="https://cdn.glitch.global/f1114e22-5871-4838-a6e3-d46842148c29/soapaintingmarker.patt?v=1671287068501">
+            <a-text value="School of Athens"></a-text>
+            <a-image rotation="270 360 360" width="5" height="3" src="https://cdn.glitch.global/377379ba-7549-499e-863d-fe13a5ddadd8/_The_School_of_Athens__by_Raffaello_Sanzio_da_Urbino.jpeg?v=1671074221122" class="clickable" gesture-handler="rotationFactor: 0">
+            </a-image>
+        </a-marker>
+
+        <!-- Last Supper Painting -->
+
+        <a-marker preset="custom" type="pattern" url="https://cdn.glitch.global/f1114e22-5871-4838-a6e3-d46842148c29/lastpaintingmarker.patt?v=1671287028962">
+            <a-text value="The Last Supper"></a-text>
+            <a-image rotation="270 360 360" width="5" height="3" src="https://cdn.glitch.global/f1114e22-5871-4838-a6e3-d46842148c29/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpeg?v=1671128686818" rotationFactor="0" gesture-handler="rotationFactor: 0">
+            </a-image>
+        </a-marker>
+
+        <!-- Creation of Adam Painting -->
+        <a-marker preset="custom" type="pattern" url="https://cdn.glitch.global/f1114e22-5871-4838-a6e3-d46842148c29/adampaintingmarker.patt?v=1671287179155">
+
+            <a-text value="The Creation of Adam"></a-text>
+            <a-image rotation="270 360 360" width="5" height="3" src="https://cdn.glitch.global/f1114e22-5871-4838-a6e3-d46842148c29/Michelangelo_-_Creation_of_Adam_(cropped).jpeg?v=1671128701210" rotationFactor="0" gesture-handler="rotationFactor: 0">
+            </a-image>
+        </a-marker>
+
+
+
+    </a-scene>
+
+</body>
+
+</html>
